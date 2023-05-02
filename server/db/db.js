@@ -20,6 +20,6 @@ if(process.env.DATABASE_URL){
   };
 }
 
-const db = new Sequelize('postgres://gb_user:8Xp7UPLP1KmRDhFQHoJfQA513ZsUfSbH@dpg-ch8km267avj2dpoer4k0-a/gb', config);
+const db = new Sequelize('postgres://grace_buster_pa7j_user:WGxj6k7Ms3Lygmo0oUIuvKXdDClxsvrA@dpg-ch8krs9mbg54hi5tr03g-a/grace_buster_pa7j', config);
 module.exports = db;
 
